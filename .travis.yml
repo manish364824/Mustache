@@ -17,15 +17,15 @@ matrix:
   #add travis on power
       
     - os: linux
-    - arch: ppc64le
+      arch: ppc64le
       compiler: gcc
 
     - os: linux
-    - arch: ppc64le
+      arch: ppc64le
       compiler: clang
 
     - os: osx
-    - arch: ppc64le
+      arch: ppc64le
       compiler: clang
       
 
